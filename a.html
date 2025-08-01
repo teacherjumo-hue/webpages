@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>卡通風表單</title>
+  <style>
+    body {
+      background: #fdf6e3;
+      font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      background: #fff4e6;
+      border: 5px dashed #ffa07a;
+      border-radius: 20px;
+      padding: 30px 40px;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+
+    label {
+      display: block;
+      font-size: 1.1em;
+      color: #ff6f61;
+      margin-top: 15px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px 12px;
+      margin-top: 5px;
+      font-size: 1em;
+      border: 2px solid #ffd3b6;
+      border-radius: 10px;
+      box-sizing: border-box;
+      transition: 0.3s;
+    }
+
+    input[type="text"]:focus {
+      border-color: #ff8c94;
+      background-color: #fff0f5;
+      outline: none;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px 15px;
+      font-size: 1.1em;
+      color: white;
+      background-color: #ff6f61;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    button:hover {
+      background-color: #ff4f41;
+    }
+  </style>
+</head>
+<body>
+
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSdJefNk4ABnjwt4YTOwAP5-OAfND_7bM4Ig6QkVDCLWG-9W0Q/formResponse" method="POST" target="_blank">
+  <label>姓名：</label>
+  <input name="entry.204471658" type="text">
+  <label>年齡：</label>
+  <input name="entry.759903611" type="text">
+  <label>電話：</label>
+  <input name="entry.1498667860" type="text">
+  <button type="submit">送出</button>
+</form>
+
+</body>
+</html>
